@@ -23,6 +23,8 @@ public class StudentServiceImpl implements StudentService {
 		Student student = this.studentRepository.findBySname(Sname);
 
 		System.out.println("Student Info  " + student);
+		
+		System.out.println("Git activated");
 
 		if (student != null) {
 			return student;
